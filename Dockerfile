@@ -1,8 +1,8 @@
-FROM node:18
+FROM node:10
 
 # Install required build tools and docker client
 RUN apt-get update && apt-get install -y \
-    python3 \
+    python \
     make \
     g++ \
     build-essential \
